@@ -28,7 +28,7 @@ body {
   --heading-color: #111;
   --heading-line-height: 1.24;
 
-  --swiper-theme-color: #8C907E;
+  --swiper-theme-color: #ffffff;
 
   /* bootstrap */
   --bs-body-font-family: "Jost", Roboto, sans-serif;
@@ -1539,4 +1539,25 @@ a.btn-link.text-light:after {
   background-position: center;
   background-size: cover;
   transition: transform .3s ease-out;
+}
+
+.bg-light-red {
+  background-color: #ff4958; /* Rojo claro */
+  color: white;
+}
+
+.col-auto a.nav-link, .list-unstyled a {
+  color: white;
+}
+
+#dropdownHome, #dropdownShop, #dropdownBlog, #white {
+  color: white;
+}
+
+.dropdown-menu a, #footer a {
+  color: black;
+}
+
+#general h2 {
+  margin-top: 40px;
 }
